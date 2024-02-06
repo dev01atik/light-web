@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light in the town</title>
+</head>
+<body>
+    <button type="button" onclick="on()">Turn On</button>
+    <img id="light" src="assets/img/off bulb images.jpg" alt="bulb">
+    <button type="button" onclick="off()">Turn Off</button>
+
+
+
+    <script>
+         function on(){
+             document.getElementById("light").src="assets/img/light-bulbpng-.jpg";
+         }
+
+         function off(){
+            document.getElementById("light").src="assets/img/off bulb images.jpg";
+         }
+
+
+
+    </script>
+
+    
+</body>
+</html>
